@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/main/assets/logo.png" width="180" alt="MMDB Logo" />
+  <img src="https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/master/assets/logo.png" width="180" alt="MMDB Logo" />
 </p>
 
 <h1 align="center">Mimir Media Database</h1>
@@ -9,10 +9,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/main/stats.json&query=$.movies&label=Movies&color=2563eb&style=flat-square" alt="Movies" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/main/stats.json&query=$.series&label=Series&color=16a34a&style=flat-square" alt="Series" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/main/stats.json&query=$.people&label=People&color=ea580c&style=flat-square" alt="People" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/main/stats.json&query=$.year_repos.count&label=Year%20Repos&color=7c3aed&style=flat-square" alt="Year Repos" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/master/ingestion/state.json&query=$.total_ingested.movies&label=Movies&color=2563eb&style=flat-square" alt="Movies" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/master/ingestion/state.json&query=$.total_ingested.series&label=Series&color=16a34a&style=flat-square" alt="Series" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/mimir-media-db/mmdb-meta/master/ingestion/state.json&query=$.total_ingested.people&label=People&color=ea580c&style=flat-square" alt="People" />
   <img src="https://img.shields.io/badge/license-MIT-gray?style=flat-square" alt="MIT License" />
 </p>
 
