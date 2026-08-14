@@ -22,7 +22,7 @@
 MMDB is a structured media metadata database stored entirely as **plain JSON files in public Git repositories**. No API keys, no rate limits, no vendor lock-in. Clone what you need and query locally.
 
 - **Movies, series, seasons, episodes, and people** — versioned JSON schemas
-- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — 3× daily
+- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — 6× daily
 - **Sharded by year** — one repository per release year (1888–present)
 - **MIT licensed** — free for any use, commercial or personal
 
@@ -79,7 +79,7 @@ Full schemas: [mmdb-schema-and-tools/schema/](https://github.com/mimir-media-db/
 Wikidata (SPARQL) → Normalize → PR to year repo → Auto-merge
 ```
 
-- **3× daily** — Bidirectional backlog (forward from 2010, backward from 2009)
+- **6× daily** — Bidirectional backlog (forward from 2010, backward from 2009)
 - **Nightly** — Current year titles
 - **Bot identity** — All automated commits via `mmdb-bot[bot]`
 - **Safeguards** — Concurrency locks, anomaly detection, kill switch
