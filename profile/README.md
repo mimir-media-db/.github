@@ -23,7 +23,7 @@
 |--------|-------|
 | 🎬 Movies | 87,115 |
 | 📺 Series | 31,727 |
-| 👤 People | 69,516 |
+| 👤 People | 73,922 |
 | 📅 Year Range | 2000–2026 |
 | 📁 Year Repos | 27 |
 | 👥 People Repos | 26 (A–Z) |
