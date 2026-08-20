@@ -23,7 +23,7 @@
 |--------|-------|
 | 🎬 Movies | 87,115 |
 | 📺 Series | 31,727 |
-| 👤 People | 73,922 |
+| 👤 People | 76,367 |
 | 📅 Year Range | 2000–2026 |
 | 📁 Year Repos | 27 |
 | 👥 People Repos | 26 (A–Z) |
@@ -125,5 +125,5 @@ All MMDB repositories are licensed under the [MIT License](https://opensource.or
 ---
 
 <p align="center">
-  <sub>Last auto-updated: 2026-08-19</sub>
+  <sub>Last auto-updated: 2026-08-20</sub>
 </p>
