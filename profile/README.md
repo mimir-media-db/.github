@@ -21,9 +21,10 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | 87,115 |
-| 📺 Series | 31,728 |
-| 👤 People | 64,595 |
+| 🎬 Movies | 124,000+ |
+| 📺 Series | 31,700+ |
+| 👤 People | 303,000+ |
+| 🎭 Credits | 750,000+ (movie↔people) |
 | 📅 Year Range | 2000–2026 |
 | 📁 Year Repos | 27 |
 | 👥 People Repos | 26 (A–Z) |
@@ -45,7 +46,7 @@
 MMDB is a structured media metadata database stored entirely as **plain JSON files in public Git repositories**. No API keys, no rate limits, no vendor lock-in. Clone what you need and query locally.
 
 - **Movies, series, seasons, episodes, and people** — versioned JSON schemas
-- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — 6× daily
+- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — nightly
 - **Sharded by year** — one repository per release year (2000–2026)
 - **People sharded alphabetically** — one repository per letter (A–Z)
 - **MIT licensed** — free for any use, commercial or personal
@@ -104,8 +105,7 @@ Wikidata (SPARQL) → Normalize → PR to data repo → Auto-merge
 ```
 
 - **All years populated** — 2000–2026 fully ingested
-- **6× daily** — Continuous updates for new and modified entries
-- **Nightly** — Current year titles refreshed
+- **Nightly** — Current year + credits + combined index rebuild
 - **Bot identity** — All automated commits via `mmdb-bot[bot]`
 - **Safeguards** — Concurrency locks, anomaly detection, kill switch
 
