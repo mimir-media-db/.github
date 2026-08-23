@@ -21,10 +21,9 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | 124,000+ |
-| 📺 Series | 31,700+ |
-| 👤 People | 303,000+ |
-| 🎭 Credits | 750,000+ (movie↔people) |
+| 🎬 Movies | 125,860 |
+| 📺 Series | 31,728 |
+| 👤 People | 172,962 |
 | 📅 Year Range | 2000–2026 |
 | 📁 Year Repos | 27 |
 | 👥 People Repos | 26 (A–Z) |
@@ -33,11 +32,11 @@
 
 | Repository | Movies | Series |
 |-----------|--------|--------|
-| [mmdb-2019](https://github.com/mimir-media-db/mmdb-2019) | 5,672 movies | 1,254 series |
-| [mmdb-2012](https://github.com/mimir-media-db/mmdb-2012) | 5,486 movies | 1,648 series |
-| [mmdb-2011](https://github.com/mimir-media-db/mmdb-2011) | 5,068 movies | 1,603 series |
-| [mmdb-2009](https://github.com/mimir-media-db/mmdb-2009) | 5,066 movies | 1,456 series |
-| [mmdb-2010](https://github.com/mimir-media-db/mmdb-2010) | 5,058 movies | 1,428 series |
+| [mmdb-2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 movies | 1,232 series |
+| [mmdb-2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 movies | 1,184 series |
+| [mmdb-2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 movies | 1,432 series |
+| [mmdb-2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 movies | 1,236 series |
+| [mmdb-2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 movies | 1,457 series |
 
 ---
 
@@ -46,7 +45,7 @@
 MMDB is a structured media metadata database stored entirely as **plain JSON files in public Git repositories**. No API keys, no rate limits, no vendor lock-in. Clone what you need and query locally.
 
 - **Movies, series, seasons, episodes, and people** — versioned JSON schemas
-- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — nightly
+- **Automated ingestion** from [Wikidata](https://www.wikidata.org/) — 6× daily
 - **Sharded by year** — one repository per release year (2000–2026)
 - **People sharded alphabetically** — one repository per letter (A–Z)
 - **MIT licensed** — free for any use, commercial or personal
@@ -105,7 +104,8 @@ Wikidata (SPARQL) → Normalize → PR to data repo → Auto-merge
 ```
 
 - **All years populated** — 2000–2026 fully ingested
-- **Nightly** — Current year + credits + combined index rebuild
+- **6× daily** — Continuous updates for new and modified entries
+- **Nightly** — Current year titles refreshed
 - **Bot identity** — All automated commits via `mmdb-bot[bot]`
 - **Safeguards** — Concurrency locks, anomaly detection, kill switch
 
@@ -125,5 +125,5 @@ All MMDB repositories are licensed under the [MIT License](https://opensource.or
 ---
 
 <p align="center">
-  <sub>Last auto-updated: 2026-08-22</sub>
+  <sub>Last auto-updated: 2026-08-23</sub>
 </p>
