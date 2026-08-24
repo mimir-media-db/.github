@@ -21,8 +21,8 @@
 
 | Metric | Value |
 |--------|-------|
-| 🎬 Movies | 125,860 |
-| 📺 Series | 31,728 |
+| 🎬 Movies | 126,008 |
+| 📺 Series | 31,986 |
 | 👤 People | 172,962 |
 | 📅 Year Range | 2000–2026 |
 | 📁 Year Repos | 27 |
@@ -32,11 +32,11 @@
 
 | Repository | Movies | Series |
 |-----------|--------|--------|
-| [mmdb-2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 movies | 1,232 series |
-| [mmdb-2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 movies | 1,184 series |
-| [mmdb-2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 movies | 1,432 series |
-| [mmdb-2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 movies | 1,236 series |
-| [mmdb-2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 movies | 1,457 series |
+| [mmdb-2016](https://github.com/mimir-media-db/mmdb-2016) | 8,324 movies | 1,229 series |
+| [mmdb-2017](https://github.com/mimir-media-db/mmdb-2017) | 6,306 movies | 1,181 series |
+| [mmdb-2015](https://github.com/mimir-media-db/mmdb-2015) | 6,241 movies | 1,429 series |
+| [mmdb-2018](https://github.com/mimir-media-db/mmdb-2018) | 6,201 movies | 1,231 series |
+| [mmdb-2014](https://github.com/mimir-media-db/mmdb-2014) | 6,008 movies | 1,450 series |
 
 ---
 
@@ -125,5 +125,5 @@ All MMDB repositories are licensed under the [MIT License](https://opensource.or
 ---
 
 <p align="center">
-  <sub>Last auto-updated: 2026-08-23</sub>
+  <sub>Last auto-updated: 2026-08-24</sub>
 </p>
