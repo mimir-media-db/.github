@@ -125,5 +125,5 @@ All MMDB repositories are licensed under the [MIT License](https://opensource.or
 ---
 
 <p align="center">
-  <sub>Last auto-updated: 2026-11-24</sub>
+  <sub>Last auto-updated: 2026-11-25</sub>
 </p>
